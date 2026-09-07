@@ -113,7 +113,7 @@ window.BRAND = {
         { value: 'ate_1000', label: 'Até R$ 1.000' },
         { value: '1000_3000', label: 'R$ 1.000 a 3.000' },
         { value: '3000_5000', label: 'R$ 3.000 a 5.000' },
-        { value: '5000_mais', label: 'R$ 5.000+', track: true } // PROVISÓRIO: link blacksender com problema -> cai no grupo padrão (links.whatsapp), igual às outras faixas. Restaurar whatsapp: 'https://blacksender.com.br/r/q1witso' quando resolver.
+        { value: '5000_mais', label: 'R$ 5.000+', track: true, whatsapp: 'https://blacksender.com.br/r/q1witso' }
       ]
     },
     consentText: 'Ao enviar, você concorda com os ',
